@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(83, 128, 241);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
