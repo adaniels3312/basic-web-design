@@ -11,7 +11,7 @@ img {
 }
 
 #container {
-  background-color: #09598a;
+  background-color: #08470a;
   border-radius: 30px;
   padding: 273px;
   border: 2px solid rgb(30, 62, 36);
@@ -101,8 +101,8 @@ footer {
   }
 
   p {
-    color: rgb(2, 142, 4);
-    background-color: #152f36;
+    color: rgb(175, 162, 15);
+    background-color: #153718;
     padding: 10px;
     border-left: 4px solid red;
     font-family: 'Georgia', serif;
