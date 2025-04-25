@@ -20,39 +20,50 @@ img {
 /* Mobile Styles */
 
 @media (min-width: 320px) {
-  nav {
-      background-color: #eedd9c;
-      padding: 15px;
-      margin-top: 15px;
-      text-align: center;
+
+  .fruit-nav {
+    display: flex;
+    gap: 15px;
   }
 
-  nav ul {
-      list-style: none;
-      padding: 0;
-  }
-  
-  nav li {
-      display: block;
-  }
-
-  nav li a {
-      display: block;
-      height: 30px;
-      background-color: #8D9BA6;
-      color: rgb(37, 92, 141);
-      font-size: 24px;
-      text-decoration: none;
-      margin-top: 20px;
-      font-weight: bold;
+  .fruit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
   }
 
-  nav li a:hover {
-      background-color: #ba8d12;
+  .fruit-btn:hover {
+    transform: scale(2.05);
   }
+
+  .apple { background: #ff4e4e; }
+  .banana { background: #ffe135; color: #333; }
+  .grape { background: #7a2f8f; }
+  .orange { background: #ffa500; }
+  .watermelon { background: #fc6c85; }
+
       
   main {
       padding: 20px;
+  }
+
+  p {
+    color: rgb(2, 142, 4);
+    background-color: #61b5cd;
+    padding: 10px;
+    border-left: 4px solid red;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
   }
 
   h1, h2, h3 {
@@ -103,6 +114,19 @@ video {
     overflow: hidden;
     z-index: -1;
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .fullscreen-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
 
   nav {
       padding: 20px;
