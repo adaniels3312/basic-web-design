@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-  background-color: #B12629;
+  background-color: #132112;
 }
 
 img {
@@ -11,7 +11,7 @@ img {
 }
 
 #container {
-  background-color: #849674;
+  background-color: #99CAE9;
   border-radius: 30px;
   padding: 273px;
   border: 2px solid rgb(79 185 227);
@@ -21,9 +21,9 @@ img {
 
 @media (min-width: 320px) {
   nav {
-      background-color: #d61e1e;
-      padding: 25px;
-      margin-top: 10px;
+      background-color: #eedd9c;
+      padding: 15px;
+      margin-top: 15px;
       text-align: center;
   }
 
@@ -43,7 +43,8 @@ img {
       color: rgb(37, 92, 141);
       font-size: 24px;
       text-decoration: none;
-      margin-top: 10px;
+      margin-top: 20px;
+      font-weight: bold;
   }
 
   nav li a:hover {
@@ -88,7 +89,7 @@ img {
       width: 65%;
       margin: 20px auto;
       border: 4px solid black;
-      border-radius: 50px;
+      border-radius: 100px;
   }
 
   #headerContent {
@@ -109,7 +110,7 @@ video {
   }
 
   nav li a {
-      background-color: rgb(155, 13, 13);
+      background-color: rgb(205, 72, 6);
   }
 
   hr {
