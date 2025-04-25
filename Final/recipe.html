@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOF</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <nav class="fruit-nav">
+        <a href="FOF.html" class="fruit-btn apple">🍎 Home</a>
+        <a href="Nutrition.html" class="fruit-btn banana">🍌 Nutrition</a>
+        <a href="ExoticFruit.html" class="fruit-btn grape">🍇 Exotic</a>
+        <a href="Gardening.html" class="fruit-btn orange">🍊 Gardening</a>
+        <a href="recipe.html" class="fruit-btn watermelon">🍉 Recipes</a>
+    </nav>
+    <header class="video-header">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="images/recipe.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <div class="header-content">
+            <h1>Welcome to My Website</h1>
+            <p>"Where Flavor Meets Elegance."</p>
+        </div>
+        <h1>Dark Mode Website</h1>
+        <button id="theme-toggle">Toggle Theme</button>
+    </header>
+    <main>
+        <section class="content">
+            <h2>Welcome</h2>
+            <p>This is a simple responsive website with dark mode toggle support.</p>
+        </section>
+        <div id="container">
+            <section id="multicol">
+                <h1 class="heading_style">🌞 Trending Fruit Recipes</h1>
+                <img src="images/bowlpp.jpg" alt="recipe">
+                <div class="col">
+                    <h2>1. Tropical Fruit Salad with Honey-Lime Dressing</h2>
+                    <h3>A vibrant mix of mango, pineapple, kiwi, and strawberries tossed in a zesty honey-lime glaze.
+                        Perfect for picnics and summer brunches!</h3>
+                </div>
+                <div class="col">
+                    <h2>2. Berry Chia Overnight Oats</h2>
+                    <h3>Fuel your morning with layers of creamy oats, mixed berries, and chia seeds. Prep it in 5
+                        minutes, enjoy it anytime!</h3>
+                </div>
+                <div class="col">
+                    <h2>3. Peach & Basil Flatbread</h2>
+                    <h3>A sweet and savory twist featuring fresh peaches, ricotta cheese, and basil on a crispy
+                        flatbread crust.</h3>
+                </div>
+                <div class="col">
+                    <h2>4. Watermelon Feta Skewers</h2>
+                    <h3>Refreshing, salty, and sweet. These colorful bites are always a party hit.</h3>
+                </div>
+                <h2>🍌 Smoothies & Sips</h2>
+                <div class="col">
+                    <h2>Sunrise Smoothie Bowl Packed with bananas, orange juice, and a hint of ginger. Top with granola
+                        and coconut flakes.</h2>
+                </div>
+                <div class="col">
+                    <h2> Berry Mojito Mocktail Fresh mint, lime, and muddled berries. A zero-alcohol stunner!</h2>
+                </div>
+                <div class="col">
+                    <h2>🍰 Fruit-Forward Desserts</h2>
+                    <h3>Apple Cinnamon Galette Rustic, flaky, and full of warm apple goodness.
+                        Grilled Pineapple Sundaes Caramelized pineapple with a scoop of vanilla and a drizzle of rum
+                        sauce.
+                    </h3>
+                </div>
+            </section>
+    </main>
+    <footer>&copy; FOF</footer>
+    <script>
+        const toggle = document.getElementById("theme-toggle");
+        toggle.addEventListener("click", () => {
+            document.body.classList.toggle("light-mode");
+        });
+    </script>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
