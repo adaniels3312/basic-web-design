@@ -9,12 +9,12 @@
 </head>
 
 <body>
-
     <nav class="fruit-nav">
         <a href="FOF.html" class="fruit-btn apple">🍎 Home</a>
         <a href="Nutrition.html" class="fruit-btn banana">🍌 Nutrition</a>
         <a href="ExoticFruit.html" class="fruit-btn grape">🍇 Exotic</a>
         <a href="Gardening.html" class="fruit-btn orange">🍊 Gardening</a>
+        <a href="recipe.html" class="fruit-btn watermelon">🍉 Recipes</a>
     </nav>
     <header class="video-header">
         <video autoplay muted loop playsinline class="background-video">
@@ -25,8 +25,14 @@
             <h1 class="heading_style">Welcome to My Website</h1>
             <p>"Where Flavor Meets Elegance."</p>
         </div>
+        <h1>Dark Mode Website</h1>
+        <button id="theme-toggle">Toggle Theme</button>
     </header>
     <main>
+        <section class="content">
+            <h2>Welcome</h2>
+            <p>This is a simple responsive website with dark mode toggle support.</p>
+        </section>
         <div id="container">
             <h1 class="heading_style">Berry Excited to Have You Here!</h1>
             <section id="multi_col">
@@ -79,6 +85,12 @@
     </main>
     </div>
     <footer>&copy; FOF</footer>
+    <script>
+        const toggle = document.getElementById("theme-toggle");
+        toggle.addEventListener("click", () => {
+            document.body.classList.toggle("light-mode");
+        });
+    </script>
 
 </body>
 
