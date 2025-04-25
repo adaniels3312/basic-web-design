@@ -9,25 +9,33 @@
 </head>
 
 <body>
-        <nav class="fruit-nav">
-            <a href="FOF.html" class="fruit-btn apple">🍎 Home</a>
-            <a href="Nutrition.html" class="fruit-btn banana">🍌 Nutrition</a>
-            <a href="ExoticFruit.html" class="fruit-btn grape">🍇 Exotic</a>
-            <a href="Gardening.html" class="fruit-btn orange">🍊 Gardening</a>
-        </nav>
-        <header class="video-header">
-            <video autoplay muted loop playsinline class="background-video">
-                <source src="images/rakken.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-            <div class="header-content">
-                <h1>Welcome to My Website</h1>
-                <p>"Where Flavor Meets Elegance."</p>
-            </div>
-        </header>
-        <hr>
-        <main>
-            <div id="container">  
+    <nav class="fruit-nav">
+        <a href="FOF.html" class="fruit-btn apple">🍎 Home</a>
+        <a href="Nutrition.html" class="fruit-btn banana">🍌 Nutrition</a>
+        <a href="ExoticFruit.html" class="fruit-btn grape">🍇 Exotic</a>
+        <a href="Gardening.html" class="fruit-btn orange">🍊 Gardening</a>
+        <a href="recipe.html" class="fruit-btn watermelon">🍉 Recipes</a>
+
+    </nav>
+    <header class="video-header">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="images/rakken.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <div class="header-content">
+            <h1>Welcome to My Website</h1>
+            <p>"Where Flavor Meets Elegance."</p>
+        </div>
+        <h1>Dark Mode Website</h1>
+        <button id="theme-toggle">Toggle Theme</button>
+    </header>
+    <hr>
+    <main>
+        <section class="content">
+            <h2>Welcome</h2>
+            <p>This is a simple responsive website with dark mode toggle support.</p>
+        </section>
+        <div id="container">
             <h1 class="heading_style">Unusual & Exotic Fruits from Around the World</h1>
             <section id="multi_col">
                 <div class="col">
@@ -119,9 +127,15 @@
                         readily available.</p>
                 </div>
             </section>
-        </main>
-        <footer>&copy; FOF</footer>
-        </div>
+    </main>
+    <footer>&copy; FOF</footer>
+    <script>
+        const toggle = document.getElementById("theme-toggle");
+        toggle.addEventListener("click", () => {
+            document.body.classList.toggle("light-mode");
+        });
+    </script>
+    </div>
     </div>
 
 </body>
