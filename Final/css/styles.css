@@ -11,10 +11,10 @@ img {
 }
 
 #container {
-  background-color: #99CAE9;
+  background-color: #09598a;
   border-radius: 30px;
   padding: 273px;
-  border: 2px solid rgb(79 185 227);
+  border: 2px solid rgb(30, 62, 36);
 }
 
 /* Light Mode */
@@ -102,7 +102,7 @@ footer {
 
   p {
     color: rgb(2, 142, 4);
-    background-color: #61b5cd;
+    background-color: #152f36;
     padding: 10px;
     border-left: 4px solid red;
     font-family: 'Georgia', serif;
