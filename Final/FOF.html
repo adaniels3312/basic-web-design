@@ -18,26 +18,29 @@
     </nav>
     <header class="video-header">
         <video autoplay muted loop playsinline class="background-video">
-            <source src="images/stockie.mp4" type="video/mp4" />
+            <source src="images/stockie.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="header-content">
             <h1 class="heading_style">Welcome to My Website</h1>
             <p>"Where Flavor Meets Elegance."</p>
         </div>
-        <h1>Dark Mode Website</h1>
-        <button id="theme-toggle">Toggle Theme</button>
     </header>
     <main>
+        <h1 class="heading_style">Dark Mode Website</h1>
+        <button id="theme-toggle">Toggle Theme</button>
+
+
         <section class="content">
-            <h2>Welcome</h2>
-            <p>This is a simple responsive website with dark mode toggle support.</p>
+            <h2 class="heading_style">Welcome</h2>
+            <p>dark mode toggle support.</p>
         </section>
         <div id="container">
             <h1 class="heading_style">Berry Excited to Have You Here!</h1>
             <section id="multi_col">
                 <div class="col">
                     <h2 class="heading_style">YOU COULD BE A SUPERHUMAN</h2>
+                    <img src="images/superhuman.jpg" alt="superhumann">
                     <p>Being a superhumanly healthy person means more than just hitting the gym or eating your
                         greens—its a
                         full-spectrum lifestyle rooted in balance, consistency, and self-awareness. Its waking up with
@@ -53,9 +56,8 @@
                         optimizing it through smart, sustainable choices that enhance longevity, vitality, and joy.</p>
                 </div>
                 <div class="col">
-                    <h1 class="heading_style">Fruit Means Everything</h1>
-
-                    <img src="images/ice fruit.jpg" alt="berries">
+                    <h1 class="heading_style">Natures Gift</h1>
+                    <img src="images/gift.jpg" alt="gift fruit">
                     <p>its natures sweetest gift, bursting with color, flavor, and life. From the crisp snap of an apple
                         to the
                         juicy drip of a ripe mango, fruit represents abundance and joy. It nourishes our bodies with
@@ -70,29 +72,42 @@
                 </div>
                 <div class="col">
                     <h2 class="heading_style">Fruit Beats All Food</h2>
-                    <img src="images/" alt="">
-                    <p>Beyond its taste and nutrition, fruit symbolizes life’s richness. In many cultures, it's a sign
+                    <img src="images/beats.jpg" alt="beats all">
+                    <p>Beyond its taste and nutrition, fruit symbolizes lifes richness. In many cultures, it's a sign
                         of
                         prosperity, love, and growth. A single seed can become a tree that bears fruit for
-                        generations—there’s
+                        generations—theres
                         something deeply poetic about that. Fruit reminds us to enjoy the present moment, to savor
                         sweetness,
-                        and to stay rooted while growing forward. It’s a simple thing, yet full of meaning, making it
+                        and to stay rooted while growing forward. Its a simple thing, yet full of meaning, making it
                         something
                         truly special—something that, in its quiet way, can mean everything.</p>
                 </div>
+                <div class="col">
+                    <h1 class="heading_style">Health Benefits</h1>
+                    <h2 class="heading_style">
+                        Improve digestion thanks to dietary fiber.
+                        Support heart health with potassium and antioxidants.
+                        Reduce the risk of chronic diseases.
+                        Help maintain healthy skin and energy levels.
+                    </h2>
+                    <h2 class="heading_style">Fun Fruit Facts
+                        A banana is technically a berry, but a strawberry isnt!
+                        Apples float in water because 25% of their volume is air.
+                        The worlds most consumed fruit? The banana.
+                    </h2>
+                </div>
             </section>
+            <footer>&copy; FOF</footer>
+        </div>
+        <script>
+            const toggle = document.getElementById("theme-toggle");
+            toggle.addEventListener("click", () => {
+                document.body.classList.toggle("light-mode");
+            });
+        </script>
     </main>
-    </div>
-    <footer>&copy; FOF</footer>
-    <script>
-        const toggle = document.getElementById("theme-toggle");
-        toggle.addEventListener("click", () => {
-            document.body.classList.toggle("light-mode");
-        });
-    </script>
 
 </body>
 
 </html>
-</div>
