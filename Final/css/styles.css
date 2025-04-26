@@ -17,7 +17,17 @@ img {
   border: 2px solid rgb(30, 62, 36);
 }
 
-/* Light Mode */
+
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+
+  .fruit-nav {
+    display: flex;
+    gap: 15px;
+  }
+
+  /* Light Mode */
 body.light-mode {
     background-color: #ffffff;
     color: #121212;
@@ -36,39 +46,6 @@ body.light-mode {
     color: #fff;
     cursor: pointer;
     border-radius: 5px;
-  }
-  body.light-mode #theme-toggle {
-    background-color: #ddd;
-    color: #000;
-  }
-
-  /* Footer */
-footer {
-    background-color: #1f1f1f;
-    color: #aaa;
-    text-align: center;
-    padding: 1rem;
-  }
-  body.light-mode footer {
-    background-color: #f0f0f0;
-    color: #333;
-  }
-
-  /* Responsive */
-@media (max-width: 600px) {
-    #theme-toggle {
-      margin-top: 1rem;
-    }
-  }
-  
-
-/* Mobile Styles */
-
-@media (min-width: 320px) {
-
-  .fruit-nav {
-    display: flex;
-    gap: 15px;
   }
 
   .fruit-btn {
@@ -104,7 +81,7 @@ footer {
     color: rgb(175, 162, 15);
     background-color: #153718;
     padding: 10px;
-    border-left: 4px solid red;
+    border-left: 4px solid rgb(80, 24, 24);
     font-family: 'Georgia', serif;
     font-size: 18px;
     font-style: italic;
