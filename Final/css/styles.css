@@ -188,4 +188,7 @@ img {
 
     .col {
         margin: 20px;
-        paddi
+        padding: 20px;
+        border: 2px solid black;
+    }
+}
