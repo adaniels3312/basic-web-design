@@ -63,7 +63,7 @@ img {
     }
 
     .fruit-btn:hover {
-        transform: scale(2.05);
+        transform: scale(1.15);
     }
 
     .apple {
